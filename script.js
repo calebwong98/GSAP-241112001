@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const sliderImages = document.querySelector(".slider-images");
   const counter = document.querySelector(".counter");
   const titles = document.querySelector(".slider-title-wrapper");
-  const indicators = document.querySelector(".slider-indicators p");
-  const prevSlides = document.querySelector(".slider-preview .preview");
+  const indicators = document.querySelectorAll(".slider-indicators p");
+  const prevSlides = document.querySelectorAll(".slider-preview .preview");
   const sliderPreview = document.querySelector(".slider-preview");
 
   let currentImg = 1;
